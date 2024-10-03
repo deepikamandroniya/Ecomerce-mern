@@ -1,0 +1,33 @@
+
+.categorybar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(280, 10%, 6%);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+
+.categorybar-category {
+    display: flex;
+    align-items: center;
+}
+
+.categorybar-category button {
+    background-color: #171817;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.categorybar-category button img {
+    width: 30px;
+    height: 20px;
+}
+
+.categorybar-category button:hover {
+    background-color: #777;
+}

@@ -1,0 +1,13 @@
+.category-container {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.category-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.category-container p {
+    font-size: 1.2rem;
+}

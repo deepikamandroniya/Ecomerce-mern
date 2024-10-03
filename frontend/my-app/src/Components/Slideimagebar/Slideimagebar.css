@@ -1,0 +1,32 @@
+.carousel {
+    width: 100%;
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the carousel */
+}
+
+.carousel-item img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Circular icons */
+    padding: 10px; /* Padding around the icons */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Make the buttons a bit wider */
+}
+
+.visually-hidden {
+    display: none; /* Hide the text visually */
+}
